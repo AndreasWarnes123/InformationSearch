@@ -1,0 +1,17 @@
+{
+  "name": "kunnskapsverktoy",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Internt verktøy: last opp dokumenter, søk med RAG, utforsk tankekart",
+  "scripts": {
+    "ingest": "node src/ingest.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.32.0",
+    "@supabase/supabase-js": "^2.45.0",
+    "dotenv": "^16.4.5",
+    "mammoth": "^1.8.0",
+    "openai": "^4.68.0",
+    "pdf-parse": "^1.1.1"
+  }
+}
